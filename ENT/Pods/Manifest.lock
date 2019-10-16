@@ -1,0 +1,20 @@
+PODS:
+  - OpenSans (1.0.3)
+  - PMAlertController (2.1.2)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
+
+DEPENDENCIES:
+  - OpenSans
+  - PMAlertController
+  - SQLite.swift
+
+SPEC CHECKSUMS:
+  OpenSans: 33078846463eae780aa5f82986b51cce085f970d
+  PMAlertController: 0fbcc3d1cee86ee0bd85f693ca85f6388e504ec8
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+
+PODFILE CHECKSUM: dd90ef3d7e61f99625b1dbcbcd95d3d0f629999e
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,1604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0408B84CA618413ECD07BDD07CF80723 /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0EC554A3A770939604E529EF9CD0F3 /* PMAlertController-dummy.m */; };
+		07C21A0FCDDF44AC33DD7798F6933371 /* Pods-ENT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A33B212AB997BF5B14BC0F4063AFFCC /* Pods-ENT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E46E47B55495EC7A54BAF33858D418D /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E7FB93E8BB6D1A837B45475EFC589 /* Operators.swift */; };
+		103957873EF23A4D34097A46FFF886A4 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF7C715B6598281727467525AFF7EA5 /* Foundation.swift */; };
+		15DE53148B2EDB24F053D8D7EFA3FEEB /* PMAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4C6D8530339973EDF4826B6FEB2C81C /* PMAlertController.bundle */; };
+		1D8266B8A3C5B456E68C9C4F723C03BB /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33B569F3C35C8E4BDA104C0A9D50C4 /* SQLite.swift-dummy.m */; };
+		2B50E09BAA6F484672829D573549125F /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C883556E1DA3007A8DC3ACA21FEBE2 /* CoreFunctions.swift */; };
+		2C08C3D952138B69B311B3FA7AD9C262 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43225B3FA84750C12FAE9C9044BA9F4E /* Statement.swift */; };
+		2C1489FA2C17B6DA623BD6AB2D53E198 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38314B3BB063B89C7DC26AF6E79B3911 /* Query.swift */; };
+		31BC657F8A8532AC58B3133F82268A6F /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB73B3D6FF9F689614F4FF6E9701977D /* PMAlertController.swift */; };
+		39920495279993F15DD91AE89ABA66C7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		3F2C5BDE60D1B5B9073B1B1F84EB186F /* Pods-ENTTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E830BC6C686649E134113063016595C4 /* Pods-ENTTests-dummy.m */; };
+		4134ED569B2D48593AFD0CF9058BB4CB /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8F47EF8D87A7860C736C102114E84 /* PMAlertController.xib */; };
+		419239E8F12CDD2F5377EA60393A7720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		460AC3C103141377447BE80169DFAEBF /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF25EE80DD647F9E34AF18007A3CD5C /* SQLite-Bridging.m */; };
+		50D5936F02E4EF3651478A306832EF1A /* Pods-ENTUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AD7C694E621DE8292DA212D7A81265 /* Pods-ENTUITests-dummy.m */; };
+		58FEDA6981B8BADE951E325AE51161C1 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A29D79D21742AD030F4B47FF9903115 /* Setter.swift */; };
+		5AD337F2A34D5DAA57A4681CF4B8A411 /* OpenSans.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A9149152BBD804AD0C8D774B17CD9FE /* OpenSans.bundle */; };
+		70753EFC9FE27FE7E688C2CD180AE50C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		74DF89E15FD06D208604F70E13708EA7 /* UIFont+OpenSans.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C57B1D705E2FF77391B3CAD6608966 /* UIFont+OpenSans.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75338FCCE34B026A5FC63B08E72CF045 /* Pods-ENT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C725785CE4AC3456CFE88D7CE7B20C6 /* Pods-ENT-dummy.m */; };
+		7A14B056BA3C5F8D9660B3D9046D013C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		8034C95CE5B45B3C4ACFC2D6C9F6BC92 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE4E868D2A27CCED0754E79D39C180 /* Value.swift */; };
+		82045A02CC90E9F536C0601F57C82834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		86F6E7BA8D743414FAAB1D5E88418288 /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 307DB4A9548F73B65F42B1C451E7EEE7 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E883316DE03D57EC5641F3BAA4825C6 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A78481751B094C8D9E7F2194AD6114 /* OpenSans-Regular.ttf */; };
+		8F7E4945697906FD83D6AC825F9264F1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BB8063DECF0F4CD45171F76BCDC18E5 /* OpenSans-Light.ttf */; };
+		929EBD24904FBB7B571C3BC2CDD7984F /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9718CFCAFBFB81354D04E8580483B962 /* OpenSans-Semibold.ttf */; };
+		94E595CB112415BD892329700A33460D /* OpenSans-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F18613ED6EACF22DC7EAF0D613AD9529 /* OpenSans-dummy.m */; };
+		954CA1D5D96C10252DADA023E1363CBB /* OpenSans-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3102795F476862F050C27169504A98 /* OpenSans-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9602A6C28D0A2EFA396C33E399D6AA24 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174FC432158B7D5677C6E13BC9B5F38 /* AggregateFunctions.swift */; };
+		98EA994042D2F087ED2A05EC9FB33687 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04D41F8D4F319263A2B67BEF55918C /* CustomFunctions.swift */; };
+		9A79E34708FBFAD978A86BD64F73FCCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		9D86568D40773BB82891EBCEF5A0FFC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		9F3BD4970AD8787938EA05198E922D04 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB32AC6183984DF587FDBAB9DA31B1 /* Connection.swift */; };
+		A316D2CD72777013C74687018E914341 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D7248DA83095646F6FE9D7A8EF09E /* Blob.swift */; };
+		A825DBC1410FF96140EC26E35EF4C114 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF0E7E90C7F06AB6C64D46BC64CC1C /* Schema.swift */; };
+		AA5EEE2D7453F5439795446E9713C56A /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA589D944E6D4CBB0E7160EC219D2DD3 /* PMAlertAction.swift */; };
+		AA9D1F2C1E663EA6D47DF3351CF94939 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CD2F34B9EAFADA8B18056FA66508C /* Expression.swift */; };
+		AAB259BA5700B3EDF3DE32D383FE6A15 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AF87882E241022291E0D90910D09454 /* OpenSans-SemiboldItalic.ttf */; };
+		B13ECBFD58629AB9D281DC64352678A6 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8907CDCF47DC44B8727AB7A41EA82B3C /* OpenSans-ExtraBoldItalic.ttf */; };
+		B42E434F70D18F03720EFA4B71856588 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B62E3C1B4D55A5FA6F7AFFA7FF22F89 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67BF0BA7194EB386F272BB5620CC41D /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21C2E0CB86DB48023C1B4E8AFBF4E05B /* OpenSans-LightItalic.ttf */; };
+		BBCE6977E930FE1E728D46439216B1FB /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8731F8D1005A7FFCCE3DE113962C98AA /* OpenSans-Bold.ttf */; };
+		C0F736F32CAE252C9E80FEF71E76DDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		C7DF7EB239A06A3E3E7D5DBEB125824D /* Pods-ENTTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E699AEB1A0DCFCB36916BC0AE33F0964 /* Pods-ENTTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94BC698FCF25FD2ECC66E8303C38170 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3685B2591D8A7818EB1F272061659E86 /* OpenSans-ExtraBold.ttf */; };
+		CCA33F4AC63B2F4E21BD18D164639656 /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F275359729C0CD65ED0241BA9FB80EB6 /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C07574AA883A36ADE39F0840840E79 /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8F47EF8D87A7860C736C102114E84 /* PMAlertController.xib */; };
+		D85E50B2F7835D859302861DF38326A1 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 882D2687ACD537FA7E54CA9E14A9D97D /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC1CF01AC0AD2EA080864D3A7278F43C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52594D00F9BBD68AEA5ADC4F809D2B /* Helpers.swift */; };
+		DEF09918891F28AA6728A3A2F19A38A0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB442D0FE95552C2AA7C1B9AF3D960EB /* OpenSans-Italic.ttf */; };
+		E5D4D0736ED5E56C5BE4BCACB3305337 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F044F441DE421ED63B3E4B983A4E0 /* Collation.swift */; };
+		E77215518D3388BACA99154B76E37518 /* Pods-ENTUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBBBB62527E2015E8005470C3C6FD04 /* Pods-ENTUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E86BC853A8C26EDAE5371297D0FCC8F1 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 442C58B7F73BFBE44C73D6EE0243F3F5 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D72AD4379C378392A4A4C97E937C37 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF9EF5C6E19731E59BFC005BE987C7 /* FTS5.swift */; };
+		ECE89ED1CBF48A690594B1AC778FC78E /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A62EACFF0831C13FDDE07591FFF3 /* FTS4.swift */; };
+		ED01C79E92ACC09A542C6E269215CFC9 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CF7909722BA2782F56A2066B5C3AE /* RTree.swift */; };
+		F23E917F4BAA6AF1E2DAE62C0C5D852B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		F6350F38959B56C252FFAAEA8C1130C5 /* UIFont+OpenSans.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA27A3941389E3D6D8CB7BA8FA6969F /* UIFont+OpenSans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB668AB1041758F411CD2644D432B98B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67B8319290855769C786F7046B1801F /* OpenSans-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39290506174A98000A2E0A6A285AD819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54FDD5C741942E89778C6F1AD56A429;
+			remoteInfo = "PMAlertController-PMAlertController";
+		};
+		3AFA81F356707234121F42D67A6EAF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99183593E3C04F0C7720EF0DA4A0159B;
+			remoteInfo = PMAlertController;
+		};
+		48510E7B554F8E1491A3EF2B70384377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C915669033A90BFBE6BD6123A6036854;
+			remoteInfo = "OpenSans-OpenSans";
+		};
+		C0CB69F99863AECA4BF31BA68CD6DE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C7AFA4A402DF3D13031BAF82FC87E6;
+			remoteInfo = OpenSans;
+		};
+		D0E5E05DDC37CD7CC93D278CB87B4EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05A4AF988CBED7CE40893B3346AD603;
+			remoteInfo = SQLite.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10323D52FF783F09591BDA19162C382E /* Pods-ENTUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENTUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13B630574C4E294B96F3A8ADC5E3E239 /* Pods-ENTTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ENTTests.modulemap"; sourceTree = "<group>"; };
+		14CB32862C9806AE6DB0E2EE3D223633 /* OpenSans-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenSans-prefix.pch"; sourceTree = "<group>"; };
+		1AF87882E241022291E0D90910D09454 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		1B62E3C1B4D55A5FA6F7AFFA7FF22F89 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		1BB8063DECF0F4CD45171F76BCDC18E5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		1E027345A2A632629BAE8D738C62729D /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMAlertController.framework; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F52594D00F9BBD68AEA5ADC4F809D2B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		1FBBBB62527E2015E8005470C3C6FD04 /* Pods-ENTUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ENTUITests-umbrella.h"; sourceTree = "<group>"; };
+		2174FC432158B7D5677C6E13BC9B5F38 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		21C2E0CB86DB48023C1B4E8AFBF4E05B /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-LightItalic.ttf"; path = "Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		24E0BD61BA8762DD3EEF0B35EA1E0141 /* Pods-ENT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENT-resources.sh"; sourceTree = "<group>"; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D70E14FA53CE93DB9ABF4E82401A439 /* Pods-ENT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENT.release.xcconfig"; sourceTree = "<group>"; };
+		2E5F044F441DE421ED63B3E4B983A4E0 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		307DB4A9548F73B65F42B1C451E7EEE7 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		3685B2591D8A7818EB1F272061659E86 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		38314B3BB063B89C7DC26AF6E79B3911 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		39D9DD85200B5AB9F8786E265B32394F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4C3516FEC75863DD6592BE61E9CA55 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		3A54D9BF0599CDCB44E9DDD061FD1CEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B24E746F54667365644D25469F5E79F /* Pods-ENT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENT-frameworks.sh"; sourceTree = "<group>"; };
+		3C0EC554A3A770939604E529EF9CD0F3 /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		3C98B180B548C9BA0A6BAA433EF719D8 /* Pods-ENTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9CD2F34B9EAFADA8B18056FA66508C /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		427E4FF0FFBFC9A7733F56EA2E9CA3F6 /* Pods-ENTTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ENTTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42AE4E868D2A27CCED0754E79D39C180 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		43225B3FA84750C12FAE9C9044BA9F4E /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		442C58B7F73BFBE44C73D6EE0243F3F5 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		45A648B01D4033DD4E7534EF1CAFE19A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9149152BBD804AD0C8D774B17CD9FE /* OpenSans.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OpenSans.bundle; path = OpenSans.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6F16E2FCCA79007268598FF9AAE224 /* Pods-ENTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF8F47EF8D87A7860C736C102114E84 /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
+		4EAF12A1C3D74316AC0490FD163E4D26 /* OpenSans.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OpenSans.modulemap; sourceTree = "<group>"; };
+		5A29D79D21742AD030F4B47FF9903115 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		5ACB32AC6183984DF587FDBAB9DA31B1 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		61CDD2B28C92B72DF23C280F42FB8962 /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PMAlertController.modulemap; sourceTree = "<group>"; };
+		63A905587E82BD64694ADB431F83AEE9 /* Pods-ENT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENT.debug.xcconfig"; sourceTree = "<group>"; };
+		67C5616F41917AC277A0F9889ECA8A6F /* Pods_ENTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ENTTests.framework; path = "Pods-ENTTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699FB035ACDEE9791FEF2C4019A6838D /* Pods-ENT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ENT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B26157F38D5C5C3157EEC6A9CE6FF8F /* Pods-ENTUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ENTUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EC416106749747DAA982A25C4FB8A7C /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
+		71C57B1D705E2FF77391B3CAD6608966 /* UIFont+OpenSans.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+OpenSans.m"; sourceTree = "<group>"; };
+		76D708DDCA27E87D682DCB2875E13243 /* OpenSans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenSans.framework; path = OpenSans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C883556E1DA3007A8DC3ACA21FEBE2 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		7A33B212AB997BF5B14BC0F4063AFFCC /* Pods-ENT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ENT-umbrella.h"; sourceTree = "<group>"; };
+		7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenSans.xcconfig; sourceTree = "<group>"; };
+		80B1A0F5660069EEC54A18733926188C /* Pods_ENT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ENT.framework; path = "Pods-ENT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D7248DA83095646F6FE9D7A8EF09E /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		8731F8D1005A7FFCCE3DE113962C98AA /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		876416270D269614DF4DAEC5ACA5B678 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882D2687ACD537FA7E54CA9E14A9D97D /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		8907CDCF47DC44B8727AB7A41EA82B3C /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-ExtraBoldItalic.ttf"; path = "Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8E6BB5FCF6DF2A9523F279138DAFAF64 /* ResourceBundle-OpenSans-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OpenSans-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944983C8ED5F7467F2C1DD58D67CA5F0 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9718CFCAFBFB81354D04E8580483B962 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9AA27A3941389E3D6D8CB7BA8FA6969F /* UIFont+OpenSans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+OpenSans.h"; sourceTree = "<group>"; };
+		9C725785CE4AC3456CFE88D7CE7B20C6 /* Pods-ENT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ENT-dummy.m"; sourceTree = "<group>"; };
+		A13807BFDF903646EC5C959481447434 /* Pods-ENTUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENTUITests-resources.sh"; sourceTree = "<group>"; };
+		A19EC13278789B5D7A58F533744EE088 /* Pods-ENTTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENTTests-resources.sh"; sourceTree = "<group>"; };
+		A21667336E8B938C17457F4A1C84194B /* Pods-ENTTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENTTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AA3102795F476862F050C27169504A98 /* OpenSans-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenSans-umbrella.h"; sourceTree = "<group>"; };
+		AC6E7FB93E8BB6D1A837B45475EFC589 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		ACF25EE80DD647F9E34AF18007A3CD5C /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		ADEF0E7E90C7F06AB6C64D46BC64CC1C /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		B815A62EACFF0831C13FDDE07591FFF3 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		BE98566F0EB84F86C76616552902D770 /* ResourceBundle-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.xcconfig; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C9AF9EF5C6E19731E59BFC005BE987C7 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		CF04D41F8D4F319263A2B67BEF55918C /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		D2531CE247E3CB1A7DD631A90B8429C0 /* Pods-ENTTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENTTests-frameworks.sh"; sourceTree = "<group>"; };
+		D4A78481751B094C8D9E7F2194AD6114 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D4C6D8530339973EDF4826B6FEB2C81C /* PMAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PMAlertController.bundle; path = PMAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6481BA5F63BDFB327413D7FC3D1C56B /* Pods-ENT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ENT.modulemap"; sourceTree = "<group>"; };
+		D67B8319290855769C786F7046B1801F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-BoldItalic.ttf"; path = "Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D7AD7C694E621DE8292DA212D7A81265 /* Pods-ENTUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ENTUITests-dummy.m"; sourceTree = "<group>"; };
+		DA589D944E6D4CBB0E7160EC219D2DD3 /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
+		DA7D615EA581369D9ECA0CCFFE17B5F1 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		DAC62419C40B162E11AE5D0E6325B747 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB33B569F3C35C8E4BDA104C0A9D50C4 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		DB73B3D6FF9F689614F4FF6E9701977D /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
+		DEC3FC7A922F36BEF55FD54FB53C6B6B /* Pods-ENTUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENTUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E68A23FDACF7651754092E693C1F9ABC /* Pods-ENTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENTTests.release.xcconfig"; sourceTree = "<group>"; };
+		E699AEB1A0DCFCB36916BC0AE33F0964 /* Pods-ENTTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ENTTests-umbrella.h"; sourceTree = "<group>"; };
+		E830BC6C686649E134113063016595C4 /* Pods-ENTTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ENTTests-dummy.m"; sourceTree = "<group>"; };
+		E8E1D069D3C74A86235A0A2A68F6A4DC /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		EBC960441FE412468274E2B10FDD61C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7F09CB0ECD757B460B999332DC335B /* Pods-ENTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F04801A18A85006FF5B495D1FC3B9816 /* Pods-ENT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENT-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18613ED6EACF22DC7EAF0D613AD9529 /* OpenSans-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenSans-dummy.m"; sourceTree = "<group>"; };
+		F275359729C0CD65ED0241BA9FB80EB6 /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
+		F544FA36A46AE47DF4C8BB524C4D0E98 /* Pods_ENTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ENTUITests.framework; path = "Pods-ENTUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0CF7909722BA2782F56A2066B5C3AE /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		FB442D0FE95552C2AA7C1B9AF3D960EB /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenSans-Italic.ttf"; path = "Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		FBA45730352F15E990BB1215C62A144E /* Pods-ENTUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ENTUITests.modulemap"; sourceTree = "<group>"; };
+		FFF7C715B6598281727467525AFF7EA5 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59AB32A5DA18281205755DCF37D995CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23E917F4BAA6AF1E2DAE62C0C5D852B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817753536877A3D56FB5B6D2DE8C4794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A14B056BA3C5F8D9660B3D9046D013C /* Foundation.framework in Frameworks */,
+				82045A02CC90E9F536C0601F57C82834 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2E4646B32F534050F3DAB15F7EAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF55AB21C94C8BFD0708896762CF31F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70753EFC9FE27FE7E688C2CD180AE50C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED594DD29EBD7217A33EDEBB2798720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F736F32CAE252C9E80FEF71E76DDCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C236F5F13BC72AD234622BBB272420C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39920495279993F15DD91AE89ABA66C7 /* CoreText.framework in Frameworks */,
+				419239E8F12CDD2F5377EA60393A7720 /* Foundation.framework in Frameworks */,
+				9D86568D40773BB82891EBCEF5A0FFC7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B55696472F26BBECC18988D43A72E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A79E34708FBFAD978A86BD64F73FCCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5550B3A069BB4C003B79256BE7E576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CDACC871B656914A48B215884C32B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC960441FE412468274E2B10FDD61C0 /* Info.plist */,
+				3A4C3516FEC75863DD6592BE61E9CA55 /* SQLite.swift.modulemap */,
+				DA7D615EA581369D9ECA0CCFFE17B5F1 /* SQLite.swift.xcconfig */,
+				DB33B569F3C35C8E4BDA104C0A9D50C4 /* SQLite.swift-dummy.m */,
+				E8E1D069D3C74A86235A0A2A68F6A4DC /* SQLite.swift-prefix.pch */,
+				442C58B7F73BFBE44C73D6EE0243F3F5 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		26D2557059056DBC9CBA90FBAC40D896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D42A058CA15930B25BDB7014F3C540 /* OpenSans */,
+				E580070E3B5C7EE95B268A17A6F8F795 /* PMAlertController */,
+				6AA4BEEC0389713E7F4884C8350AA57D /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37D42A058CA15930B25BDB7014F3C540 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				9AA27A3941389E3D6D8CB7BA8FA6969F /* UIFont+OpenSans.h */,
+				71C57B1D705E2FF77391B3CAD6608966 /* UIFont+OpenSans.m */,
+				862C8712C311B6C4BFF49F5FB4A7EC00 /* Resources */,
+				9041D8D2D52BBDC55F5EDFDB30A91703 /* Support Files */,
+			);
+			name = OpenSans;
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		579FD4E088B6BE3B9A8806FA368C34D8 /* Pods-ENTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39D9DD85200B5AB9F8786E265B32394F /* Info.plist */,
+				FBA45730352F15E990BB1215C62A144E /* Pods-ENTUITests.modulemap */,
+				6B26157F38D5C5C3157EEC6A9CE6FF8F /* Pods-ENTUITests-acknowledgements.markdown */,
+				10323D52FF783F09591BDA19162C382E /* Pods-ENTUITests-acknowledgements.plist */,
+				D7AD7C694E621DE8292DA212D7A81265 /* Pods-ENTUITests-dummy.m */,
+				DEC3FC7A922F36BEF55FD54FB53C6B6B /* Pods-ENTUITests-frameworks.sh */,
+				A13807BFDF903646EC5C959481447434 /* Pods-ENTUITests-resources.sh */,
+				1FBBBB62527E2015E8005470C3C6FD04 /* Pods-ENTUITests-umbrella.h */,
+				4B6F16E2FCCA79007268598FF9AAE224 /* Pods-ENTUITests.debug.xcconfig */,
+				EC7F09CB0ECD757B460B999332DC335B /* Pods-ENTUITests.release.xcconfig */,
+			);
+			name = "Pods-ENTUITests";
+			path = "Target Support Files/Pods-ENTUITests";
+			sourceTree = "<group>";
+		};
+		6AA4BEEC0389713E7F4884C8350AA57D /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				B17BECB04717C463D95FD6DD58CD1239 /* standard */,
+				13CDACC871B656914A48B215884C32B9 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				26D2557059056DBC9CBA90FBAC40D896 /* Pods */,
+				DD2E32D822152EB57DF7CD24E0194708 /* Products */,
+				C8CAE428B082986417C1DD976A328011 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		862C8712C311B6C4BFF49F5FB4A7EC00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8731F8D1005A7FFCCE3DE113962C98AA /* OpenSans-Bold.ttf */,
+				D67B8319290855769C786F7046B1801F /* OpenSans-BoldItalic.ttf */,
+				3685B2591D8A7818EB1F272061659E86 /* OpenSans-ExtraBold.ttf */,
+				8907CDCF47DC44B8727AB7A41EA82B3C /* OpenSans-ExtraBoldItalic.ttf */,
+				FB442D0FE95552C2AA7C1B9AF3D960EB /* OpenSans-Italic.ttf */,
+				1BB8063DECF0F4CD45171F76BCDC18E5 /* OpenSans-Light.ttf */,
+				21C2E0CB86DB48023C1B4E8AFBF4E05B /* OpenSans-LightItalic.ttf */,
+				D4A78481751B094C8D9E7F2194AD6114 /* OpenSans-Regular.ttf */,
+				9718CFCAFBFB81354D04E8580483B962 /* OpenSans-Semibold.ttf */,
+				1AF87882E241022291E0D90910D09454 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9041D8D2D52BBDC55F5EDFDB30A91703 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A648B01D4033DD4E7534EF1CAFE19A /* Info.plist */,
+				4EAF12A1C3D74316AC0490FD163E4D26 /* OpenSans.modulemap */,
+				7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */,
+				F18613ED6EACF22DC7EAF0D613AD9529 /* OpenSans-dummy.m */,
+				14CB32862C9806AE6DB0E2EE3D223633 /* OpenSans-prefix.pch */,
+				AA3102795F476862F050C27169504A98 /* OpenSans-umbrella.h */,
+				8E6BB5FCF6DF2A9523F279138DAFAF64 /* ResourceBundle-OpenSans-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSans";
+			sourceTree = "<group>";
+		};
+		B17BECB04717C463D95FD6DD58CD1239 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				2174FC432158B7D5677C6E13BC9B5F38 /* AggregateFunctions.swift */,
+				837D7248DA83095646F6FE9D7A8EF09E /* Blob.swift */,
+				2E5F044F441DE421ED63B3E4B983A4E0 /* Collation.swift */,
+				5ACB32AC6183984DF587FDBAB9DA31B1 /* Connection.swift */,
+				79C883556E1DA3007A8DC3ACA21FEBE2 /* CoreFunctions.swift */,
+				CF04D41F8D4F319263A2B67BEF55918C /* CustomFunctions.swift */,
+				3C9CD2F34B9EAFADA8B18056FA66508C /* Expression.swift */,
+				FFF7C715B6598281727467525AFF7EA5 /* Foundation.swift */,
+				882D2687ACD537FA7E54CA9E14A9D97D /* fts3_tokenizer.h */,
+				B815A62EACFF0831C13FDDE07591FFF3 /* FTS4.swift */,
+				C9AF9EF5C6E19731E59BFC005BE987C7 /* FTS5.swift */,
+				1F52594D00F9BBD68AEA5ADC4F809D2B /* Helpers.swift */,
+				AC6E7FB93E8BB6D1A837B45475EFC589 /* Operators.swift */,
+				38314B3BB063B89C7DC26AF6E79B3911 /* Query.swift */,
+				FB0CF7909722BA2782F56A2066B5C3AE /* RTree.swift */,
+				ADEF0E7E90C7F06AB6C64D46BC64CC1C /* Schema.swift */,
+				5A29D79D21742AD030F4B47FF9903115 /* Setter.swift */,
+				1B62E3C1B4D55A5FA6F7AFFA7FF22F89 /* SQLite.h */,
+				307DB4A9548F73B65F42B1C451E7EEE7 /* SQLite-Bridging.h */,
+				ACF25EE80DD647F9E34AF18007A3CD5C /* SQLite-Bridging.m */,
+				43225B3FA84750C12FAE9C9044BA9F4E /* Statement.swift */,
+				42AE4E868D2A27CCED0754E79D39C180 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		B190F5DB14856AA856F7F19721A84870 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0BE2C7F259A484ADC0B2CD149F1D99F /* Pods-ENTTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC62419C40B162E11AE5D0E6325B747 /* Info.plist */,
+				13B630574C4E294B96F3A8ADC5E3E239 /* Pods-ENTTests.modulemap */,
+				427E4FF0FFBFC9A7733F56EA2E9CA3F6 /* Pods-ENTTests-acknowledgements.markdown */,
+				A21667336E8B938C17457F4A1C84194B /* Pods-ENTTests-acknowledgements.plist */,
+				E830BC6C686649E134113063016595C4 /* Pods-ENTTests-dummy.m */,
+				D2531CE247E3CB1A7DD631A90B8429C0 /* Pods-ENTTests-frameworks.sh */,
+				A19EC13278789B5D7A58F533744EE088 /* Pods-ENTTests-resources.sh */,
+				E699AEB1A0DCFCB36916BC0AE33F0964 /* Pods-ENTTests-umbrella.h */,
+				3C98B180B548C9BA0A6BAA433EF719D8 /* Pods-ENTTests.debug.xcconfig */,
+				E68A23FDACF7651754092E693C1F9ABC /* Pods-ENTTests.release.xcconfig */,
+			);
+			name = "Pods-ENTTests";
+			path = "Target Support Files/Pods-ENTTests";
+			sourceTree = "<group>";
+		};
+		C0E1AEE38255E79E4C347C18F43404B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				876416270D269614DF4DAEC5ACA5B678 /* Info.plist */,
+				61CDD2B28C92B72DF23C280F42FB8962 /* PMAlertController.modulemap */,
+				C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */,
+				3C0EC554A3A770939604E529EF9CD0F3 /* PMAlertController-dummy.m */,
+				6EC416106749747DAA982A25C4FB8A7C /* PMAlertController-prefix.pch */,
+				F275359729C0CD65ED0241BA9FB80EB6 /* PMAlertController-umbrella.h */,
+				BE98566F0EB84F86C76616552902D770 /* ResourceBundle-PMAlertController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PMAlertController";
+			sourceTree = "<group>";
+		};
+		C8CAE428B082986417C1DD976A328011 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CB8CD4A505E5D28AA2ED54586384D /* Pods-ENT */,
+				C0BE2C7F259A484ADC0B2CD149F1D99F /* Pods-ENTTests */,
+				579FD4E088B6BE3B9A8806FA368C34D8 /* Pods-ENTUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD2E32D822152EB57DF7CD24E0194708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A9149152BBD804AD0C8D774B17CD9FE /* OpenSans.bundle */,
+				76D708DDCA27E87D682DCB2875E13243 /* OpenSans.framework */,
+				D4C6D8530339973EDF4826B6FEB2C81C /* PMAlertController.bundle */,
+				1E027345A2A632629BAE8D738C62729D /* PMAlertController.framework */,
+				80B1A0F5660069EEC54A18733926188C /* Pods_ENT.framework */,
+				67C5616F41917AC277A0F9889ECA8A6F /* Pods_ENTTests.framework */,
+				F544FA36A46AE47DF4C8BB524C4D0E98 /* Pods_ENTUITests.framework */,
+				944983C8ED5F7467F2C1DD58D67CA5F0 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E580070E3B5C7EE95B268A17A6F8F795 /* PMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				DA589D944E6D4CBB0E7160EC219D2DD3 /* PMAlertAction.swift */,
+				DB73B3D6FF9F689614F4FF6E9701977D /* PMAlertController.swift */,
+				4BF8F47EF8D87A7860C736C102114E84 /* PMAlertController.xib */,
+				B190F5DB14856AA856F7F19721A84870 /* Resources */,
+				C0E1AEE38255E79E4C347C18F43404B0 /* Support Files */,
+			);
+			name = PMAlertController;
+			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		FE3CB8CD4A505E5D28AA2ED54586384D /* Pods-ENT */ = {
+			isa = PBXGroup;
+			children = (
+				3A54D9BF0599CDCB44E9DDD061FD1CEB /* Info.plist */,
+				D6481BA5F63BDFB327413D7FC3D1C56B /* Pods-ENT.modulemap */,
+				699FB035ACDEE9791FEF2C4019A6838D /* Pods-ENT-acknowledgements.markdown */,
+				F04801A18A85006FF5B495D1FC3B9816 /* Pods-ENT-acknowledgements.plist */,
+				9C725785CE4AC3456CFE88D7CE7B20C6 /* Pods-ENT-dummy.m */,
+				3B24E746F54667365644D25469F5E79F /* Pods-ENT-frameworks.sh */,
+				24E0BD61BA8762DD3EEF0B35EA1E0141 /* Pods-ENT-resources.sh */,
+				7A33B212AB997BF5B14BC0F4063AFFCC /* Pods-ENT-umbrella.h */,
+				63A905587E82BD64694ADB431F83AEE9 /* Pods-ENT.debug.xcconfig */,
+				2D70E14FA53CE93DB9ABF4E82401A439 /* Pods-ENT.release.xcconfig */,
+			);
+			name = "Pods-ENT";
+			path = "Target Support Files/Pods-ENT";
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06320C8FEADCCE8A1C52D26028EFB328 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C21A0FCDDF44AC33DD7798F6933371 /* Pods-ENT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1129B178022B7B94DC9F0E82DB0E592D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA33F4AC63B2F4E21BD18D164639656 /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377EF7FF5C15B4AA98CB9AB124A678A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77215518D3388BACA99154B76E37518 /* Pods-ENTUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0E24067DFE3053F43B884FDEB23AB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF7EB239A06A3E3E7D5DBEB125824D /* Pods-ENTTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D72C91005E9A2E2398898C36AF2CD77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954CA1D5D96C10252DADA023E1363CBB /* OpenSans-umbrella.h in Headers */,
+				F6350F38959B56C252FFAAEA8C1130C5 /* UIFont+OpenSans.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FC8212E46F486CC08505F354F72A8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E50B2F7835D859302861DF38326A1 /* fts3_tokenizer.h in Headers */,
+				86F6E7BA8D743414FAAB1D5E88418288 /* SQLite-Bridging.h in Headers */,
+				B42E434F70D18F03720EFA4B71856588 /* SQLite.h in Headers */,
+				E86BC853A8C26EDAE5371297D0FCC8F1 /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		104D462479895B7928DB7960368B1FF1 /* Pods-ENTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DE3805600E864A69D652494C3D4C3B /* Build configuration list for PBXNativeTarget "Pods-ENTUITests" */;
+			buildPhases = (
+				0F2B7E37A03F0CBF9E311C7F48026676 /* Sources */,
+				BED594DD29EBD7217A33EDEBB2798720 /* Frameworks */,
+				377EF7FF5C15B4AA98CB9AB124A678A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ENTUITests";
+			productName = "Pods-ENTUITests";
+			productReference = F544FA36A46AE47DF4C8BB524C4D0E98 /* Pods_ENTUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BBDCC4CF7B3F29C0517325311864DC8 /* Pods-ENT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA57519BC3A52D38192EC0149D8F4AF /* Build configuration list for PBXNativeTarget "Pods-ENT" */;
+			buildPhases = (
+				920C417C838AFE371416E04C3F1F3095 /* Sources */,
+				AF55AB21C94C8BFD0708896762CF31F3 /* Frameworks */,
+				06320C8FEADCCE8A1C52D26028EFB328 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71E4D09CE68673C202E233F54F42914 /* PBXTargetDependency */,
+				724B6250FA65BF5E64070B3CF54B4894 /* PBXTargetDependency */,
+				F726AE1779D039E5563D5BAB7EE4820C /* PBXTargetDependency */,
+			);
+			name = "Pods-ENT";
+			productName = "Pods-ENT";
+			productReference = 80B1A0F5660069EEC54A18733926188C /* Pods_ENT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99183593E3C04F0C7720EF0DA4A0159B /* PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F4DA72CC994E1F5D816BCC987D002E /* Build configuration list for PBXNativeTarget "PMAlertController" */;
+			buildPhases = (
+				F4F8F33D70FEF81C2EB14EF5D26C0857 /* Sources */,
+				817753536877A3D56FB5B6D2DE8C4794 /* Frameworks */,
+				A1ED80D9C6ECC273A81C889E1679BA97 /* Resources */,
+				1129B178022B7B94DC9F0E82DB0E592D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A480280D7E29C4E53B1D038EE5C8A6D /* PBXTargetDependency */,
+			);
+			name = PMAlertController;
+			productName = PMAlertController;
+			productReference = 1E027345A2A632629BAE8D738C62729D /* PMAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B05A4AF988CBED7CE40893B3346AD603 /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B6F11C5A632D85BCE47F33877E565F /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				C87C581A0108343BF6C6471E55B43B13 /* Sources */,
+				E2B55696472F26BBECC18988D43A72E7 /* Frameworks */,
+				84FC8212E46F486CC08505F354F72A8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = 944983C8ED5F7467F2C1DD58D67CA5F0 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6AFF72BB7DB612C95DF9AC05D9F02A6 /* Pods-ENTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6464162130D2E98A843CCB0DB1D736A6 /* Build configuration list for PBXNativeTarget "Pods-ENTTests" */;
+			buildPhases = (
+				E1CE74836AFBF51887647F228ED188D1 /* Sources */,
+				59AB32A5DA18281205755DCF37D995CE /* Frameworks */,
+				3E0E24067DFE3053F43B884FDEB23AB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ENTTests";
+			productName = "Pods-ENTTests";
+			productReference = 67C5616F41917AC277A0F9889ECA8A6F /* Pods_ENTTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C915669033A90BFBE6BD6123A6036854 /* OpenSans-OpenSans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F262602E3764928F09BD1C38850FB3C6 /* Build configuration list for PBXNativeTarget "OpenSans-OpenSans" */;
+			buildPhases = (
+				3C9DA386DABE6B42E55445BE4E623DB2 /* Sources */,
+				ACF2E4646B32F534050F3DAB15F7EAAD /* Frameworks */,
+				C9735F057E333CB59220D667F37B203B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenSans-OpenSans";
+			productName = "OpenSans-OpenSans";
+			productReference = 4A9149152BBD804AD0C8D774B17CD9FE /* OpenSans.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D54FDD5C741942E89778C6F1AD56A429 /* PMAlertController-PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629A0B31F2491FAB7E6F2E4EFC16DDE5 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
+			buildPhases = (
+				BE4FC9CE18BCF688FF31E008D6408AA4 /* Sources */,
+				EE5550B3A069BB4C003B79256BE7E576 /* Frameworks */,
+				1CFBFF2ABDE191D87776F4DA9D0F479B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMAlertController-PMAlertController";
+			productName = "PMAlertController-PMAlertController";
+			productReference = D4C6D8530339973EDF4826B6FEB2C81C /* PMAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F0C7AFA4A402DF3D13031BAF82FC87E6 /* OpenSans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF29A5473F8488BA0DC56FB05E2AC21 /* Build configuration list for PBXNativeTarget "OpenSans" */;
+			buildPhases = (
+				BF38E3D43403F46BAE3D515D80A0EED3 /* Sources */,
+				C236F5F13BC72AD234622BBB272420C3 /* Frameworks */,
+				8E8BC8EC79B92715EDCC6D2AC018E2A7 /* Resources */,
+				7D72C91005E9A2E2398898C36AF2CD77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0908CB0FE7FB20CD33D8E8A43E61E980 /* PBXTargetDependency */,
+			);
+			name = OpenSans;
+			productName = OpenSans;
+			productReference = 76D708DDCA27E87D682DCB2875E13243 /* OpenSans.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD2E32D822152EB57DF7CD24E0194708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C7AFA4A402DF3D13031BAF82FC87E6 /* OpenSans */,
+				C915669033A90BFBE6BD6123A6036854 /* OpenSans-OpenSans */,
+				99183593E3C04F0C7720EF0DA4A0159B /* PMAlertController */,
+				D54FDD5C741942E89778C6F1AD56A429 /* PMAlertController-PMAlertController */,
+				1BBDCC4CF7B3F29C0517325311864DC8 /* Pods-ENT */,
+				B6AFF72BB7DB612C95DF9AC05D9F02A6 /* Pods-ENTTests */,
+				104D462479895B7928DB7960368B1FF1 /* Pods-ENTUITests */,
+				B05A4AF988CBED7CE40893B3346AD603 /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFBFF2ABDE191D87776F4DA9D0F479B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134ED569B2D48593AFD0CF9058BB4CB /* PMAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8BC8EC79B92715EDCC6D2AC018E2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD337F2A34D5DAA57A4681CF4B8A411 /* OpenSans.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ED80D9C6ECC273A81C889E1679BA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE53148B2EDB24F053D8D7EFA3FEEB /* PMAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9735F057E333CB59220D667F37B203B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCE6977E930FE1E728D46439216B1FB /* OpenSans-Bold.ttf in Resources */,
+				FB668AB1041758F411CD2644D432B98B /* OpenSans-BoldItalic.ttf in Resources */,
+				C94BC698FCF25FD2ECC66E8303C38170 /* OpenSans-ExtraBold.ttf in Resources */,
+				B13ECBFD58629AB9D281DC64352678A6 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				DEF09918891F28AA6728A3A2F19A38A0 /* OpenSans-Italic.ttf in Resources */,
+				8F7E4945697906FD83D6AC825F9264F1 /* OpenSans-Light.ttf in Resources */,
+				B67BF0BA7194EB386F272BB5620CC41D /* OpenSans-LightItalic.ttf in Resources */,
+				8E883316DE03D57EC5641F3BAA4825C6 /* OpenSans-Regular.ttf in Resources */,
+				929EBD24904FBB7B571C3BC2CDD7984F /* OpenSans-Semibold.ttf in Resources */,
+				AAB259BA5700B3EDF3DE32D383FE6A15 /* OpenSans-SemiboldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2B7E37A03F0CBF9E311C7F48026676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D5936F02E4EF3651478A306832EF1A /* Pods-ENTUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9DA386DABE6B42E55445BE4E623DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920C417C838AFE371416E04C3F1F3095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75338FCCE34B026A5FC63B08E72CF045 /* Pods-ENT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4FC9CE18BCF688FF31E008D6408AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF38E3D43403F46BAE3D515D80A0EED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E595CB112415BD892329700A33460D /* OpenSans-dummy.m in Sources */,
+				74DF89E15FD06D208604F70E13708EA7 /* UIFont+OpenSans.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C581A0108343BF6C6471E55B43B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9602A6C28D0A2EFA396C33E399D6AA24 /* AggregateFunctions.swift in Sources */,
+				A316D2CD72777013C74687018E914341 /* Blob.swift in Sources */,
+				E5D4D0736ED5E56C5BE4BCACB3305337 /* Collation.swift in Sources */,
+				9F3BD4970AD8787938EA05198E922D04 /* Connection.swift in Sources */,
+				2B50E09BAA6F484672829D573549125F /* CoreFunctions.swift in Sources */,
+				98EA994042D2F087ED2A05EC9FB33687 /* CustomFunctions.swift in Sources */,
+				AA9D1F2C1E663EA6D47DF3351CF94939 /* Expression.swift in Sources */,
+				103957873EF23A4D34097A46FFF886A4 /* Foundation.swift in Sources */,
+				ECE89ED1CBF48A690594B1AC778FC78E /* FTS4.swift in Sources */,
+				E9D72AD4379C378392A4A4C97E937C37 /* FTS5.swift in Sources */,
+				DC1CF01AC0AD2EA080864D3A7278F43C /* Helpers.swift in Sources */,
+				0E46E47B55495EC7A54BAF33858D418D /* Operators.swift in Sources */,
+				2C1489FA2C17B6DA623BD6AB2D53E198 /* Query.swift in Sources */,
+				ED01C79E92ACC09A542C6E269215CFC9 /* RTree.swift in Sources */,
+				A825DBC1410FF96140EC26E35EF4C114 /* Schema.swift in Sources */,
+				58FEDA6981B8BADE951E325AE51161C1 /* Setter.swift in Sources */,
+				460AC3C103141377447BE80169DFAEBF /* SQLite-Bridging.m in Sources */,
+				1D8266B8A3C5B456E68C9C4F723C03BB /* SQLite.swift-dummy.m in Sources */,
+				2C08C3D952138B69B311B3FA7AD9C262 /* Statement.swift in Sources */,
+				8034C95CE5B45B3C4ACFC2D6C9F6BC92 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE74836AFBF51887647F228ED188D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C5BDE60D1B5B9073B1B1F84EB186F /* Pods-ENTTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F8F33D70FEF81C2EB14EF5D26C0857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5EEE2D7453F5439795446E9713C56A /* PMAlertAction.swift in Sources */,
+				0408B84CA618413ECD07BDD07CF80723 /* PMAlertController-dummy.m in Sources */,
+				31BC657F8A8532AC58B3133F82268A6F /* PMAlertController.swift in Sources */,
+				D3C07574AA883A36ADE39F0840840E79 /* PMAlertController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0908CB0FE7FB20CD33D8E8A43E61E980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSans-OpenSans";
+			target = C915669033A90BFBE6BD6123A6036854 /* OpenSans-OpenSans */;
+			targetProxy = 48510E7B554F8E1491A3EF2B70384377 /* PBXContainerItemProxy */;
+		};
+		724B6250FA65BF5E64070B3CF54B4894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = 99183593E3C04F0C7720EF0DA4A0159B /* PMAlertController */;
+			targetProxy = 3AFA81F356707234121F42D67A6EAF56 /* PBXContainerItemProxy */;
+		};
+		8A480280D7E29C4E53B1D038EE5C8A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PMAlertController-PMAlertController";
+			target = D54FDD5C741942E89778C6F1AD56A429 /* PMAlertController-PMAlertController */;
+			targetProxy = 39290506174A98000A2E0A6A285AD819 /* PBXContainerItemProxy */;
+		};
+		D71E4D09CE68673C202E233F54F42914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenSans;
+			target = F0C7AFA4A402DF3D13031BAF82FC87E6 /* OpenSans */;
+			targetProxy = C0CB69F99863AECA4BF31BA68CD6DE80 /* PBXContainerItemProxy */;
+		};
+		F726AE1779D039E5563D5BAB7EE4820C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = B05A4AF988CBED7CE40893B3346AD603 /* SQLite.swift */;
+			targetProxy = D0E5E05DDC37CD7CC93D278CB87B4EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC853730128721011E9378016E9EFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D70E14FA53CE93DB9ABF4E82401A439 /* Pods-ENT.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENT/Pods-ENT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3952DC5371B022301D3184ED5C8EEF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C98B180B548C9BA0A6BAA433EF719D8 /* Pods-ENTTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENTTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENTTests/Pods-ENTTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENTTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A85AC9EB2870812F1E6DE6A9824525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AE38359111E37291A0070665A032869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpenSans/OpenSans-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenSans/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenSans/OpenSans.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OpenSans;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51980EB2F835C4E726213DF50D58E31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpenSans/OpenSans-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenSans/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenSans/OpenSans.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OpenSans;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51FCE75B69BBA3B9CA3624479B271C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7F09CB0ECD757B460B999332DC335B /* Pods-ENTUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENTUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENTUITests/Pods-ENTUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENTUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80F5D20CBD369A70A5006FA4F31C4079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpenSans";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OpenSans/ResourceBundle-OpenSans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OpenSans;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8F34010D3D2C79ED18CACBE376BAFED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8F623F4B25B366E5848E5029D87D8409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A391EAE91FEFB0E840C72CA95ED2DF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7D615EA581369D9ECA0CCFFE17B5F1 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2C2C84589420700B51D089907F0F69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31FF9660C563A68AA5D72E80CE0106A /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBD8D25B527DDEFBB345A75BF2B4F566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68A23FDACF7651754092E693C1F9ABC /* Pods-ENTTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENTTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENTTests/Pods-ENTTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENTTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6C160882D2ADAC28DE91B42217CB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7D615EA581369D9ECA0CCFFE17B5F1 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EACE4CA7D4904B80F6376396D87123DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6F16E2FCCA79007268598FF9AAE224 /* Pods-ENTUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENTUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENTUITests/Pods-ENTUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENTUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5D3280CD682A2F7C42F999339D35913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B357D6206CD1D75ECCC235334AEBAC2 /* OpenSans.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpenSans";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OpenSans/ResourceBundle-OpenSans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OpenSans;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F8C2303813E1D5B97B6CC61BF30B19C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A905587E82BD64694ADB431F83AEE9 /* Pods-ENT.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ENT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENT/Pods-ENT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ENT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F4DA72CC994E1F5D816BCC987D002E /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F623F4B25B366E5848E5029D87D8409 /* Debug */,
+				4A85AC9EB2870812F1E6DE6A9824525C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DE3805600E864A69D652494C3D4C3B /* Build configuration list for PBXNativeTarget "Pods-ENTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACE4CA7D4904B80F6376396D87123DC /* Debug */,
+				51FCE75B69BBA3B9CA3624479B271C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629A0B31F2491FAB7E6F2E4EFC16DDE5 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C2C84589420700B51D089907F0F69D /* Debug */,
+				8F34010D3D2C79ED18CACBE376BAFED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6464162130D2E98A843CCB0DB1D736A6 /* Build configuration list for PBXNativeTarget "Pods-ENTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3952DC5371B022301D3184ED5C8EEF7B /* Debug */,
+				BBD8D25B527DDEFBB345A75BF2B4F566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF29A5473F8488BA0DC56FB05E2AC21 /* Build configuration list for PBXNativeTarget "OpenSans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE38359111E37291A0070665A032869 /* Debug */,
+				51980EB2F835C4E726213DF50D58E31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B6F11C5A632D85BCE47F33877E565F /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A391EAE91FEFB0E840C72CA95ED2DF7F /* Debug */,
+				CA6C160882D2ADAC28DE91B42217CB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA57519BC3A52D38192EC0149D8F4AF /* Build configuration list for PBXNativeTarget "Pods-ENT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C2303813E1D5B97B6CC61BF30B19C2 /* Debug */,
+				1CC853730128721011E9378016E9EFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F262602E3764928F09BD1C38850FB3C6 /* Build configuration list for PBXNativeTarget "OpenSans-OpenSans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F5D20CBD369A70A5006FA4F31C4079 /* Debug */,
+				F5D3280CD682A2F7C42F999339D35913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
